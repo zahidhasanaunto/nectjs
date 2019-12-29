@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "jwtSecret": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8k3x3Wi9V3kMkYu9tjDaSRD2cBjOgp3FQU/Gndlced9WsaVNx3lgkbbS47sPpFMdQVSgmGbRqhaj9vUrD56+QOMn5HuxeAp5VMwwD$",
+    "saltRounds": 10
+  },
+  "API": {
+    "version": "1",
+    "prefix": "/api/v1",
+    "port": 3000
+  }
+}
