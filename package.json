@@ -1,0 +1,27 @@
+{
+  "name": "nectjs",
+  "version": "1.0.0",
+  "description": "nectjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zahidhasanaunto/nectjs.git"
+  },
+  "keywords": [
+    "nectjs",
+    "nodejs",
+    "typescript",
+    "koa",
+    "typeorm",
+    "api"
+  ],
+  "author": "Zahid Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zahidhasanaunto/nectjs/issues"
+  },
+  "homepage": "https://github.com/zahidhasanaunto/nectjs#readme"
+}
