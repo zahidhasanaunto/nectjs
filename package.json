@@ -1,6 +1,6 @@
 {
   "name": "nectjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Next generation node.js framework",
   "repository": {
     "type": "git",
@@ -20,6 +20,11 @@
     "url": "https://github.com/zahidhasanaunto/nectjs/issues"
   },
   "homepage": "https://github.com/zahidhasanaunto/nectjs#readme",
+  "bin": {
+    "nectjs": "./dist/app.js"
+  },
+  "main": "./dist/app.js",
+  "types": "./dist/app.d.ts",
   "scripts": {
     "dev": "npm run build && npm run watch-debug",
     "build": "npm run build-ts && npm run tslint",
@@ -32,7 +37,9 @@
     "tslint": "tslint -c tslint.json -p tsconfig.json",
     "serve-debug": "nodemon --inspect dist/app.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "class-validator": "^0.11.0"
+  },
   "devDependencies": {
     "@types/chai": "^4.2.7",
     "@types/concurrently": "^4.1.0",

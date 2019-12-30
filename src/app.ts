@@ -1,11 +1,25 @@
-import { Core } from './core'
+#!/usr/bin/env node
 
-class Application extends Core {
+// import { Core } from './core'
+// import { Person } from './models/person'
 
-    constructor() {
-        super();
+// class Application extends Core {
+
+//     constructor() {
+//         super();
+
+//         // tslint:disable-next-line:no-unused-expression
+//         new Person('email goes here');
+//     }
+// }
+
+// // tslint:disable-next-line:no-unused-expression
+// new Application();
+
+// export * from './core';
+
+export class NectJS {
+    public greetings() {
+        return 'Hello from NectJS';
     }
 }
-
-// tslint:disable-next-line:no-unused-expression
-new Application();

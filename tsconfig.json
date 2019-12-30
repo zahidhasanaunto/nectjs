@@ -29,6 +29,11 @@
     "mapRoot": "dist",
     "sourceRoot": "src",
     "removeComments": true,
+    "declaration": true,
+    "typeRoots": [
+      "typings",
+      "node_modules/@types"
+    ],
     "plugins": [
       {
         "name": "tslint-language-service",
@@ -44,6 +49,7 @@
     "src/**/*"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "typings"
   ]
 }
