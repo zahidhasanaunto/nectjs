@@ -1,6 +1,6 @@
 {
   "name": "nectjs",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Next generation node.js framework",
   "repository": {
     "type": "git",
